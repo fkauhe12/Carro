@@ -22,8 +22,11 @@ public class App {
             System.out.println("Modelo: " + carro.modelo);
             System.out.println("Acessorio: " + carro.acessorio);
             System.out.println("Velocidade: " + carro.velocidade);
-            System.out.println("Ligado: " + carro.ligado);
+            System.out.println("Ligado?: " + carro.ligado);
             System.out.println("Cor: " + carro.cor);
+
+            carro.ligar();
+
         }
     }
 }
